@@ -1,0 +1,3 @@
+Model,MAE,RMSE
+Baseline Linear Regression,989.13,1502.91
+Histogram Gradient Boosting,766.75,1131.01

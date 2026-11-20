@@ -1,0 +1,22 @@
+# Python Virtual Environments & Cache
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Word Temporary / Lock Files
+~$*
+
+# Raw & Large Processed CSV Datasets
+data/raw/*.csv
+data/processed/train_processed.csv
+data/processed/test_processed.csv
+# Keep gbr_submission.csv if you want it tracked; otherwise uncomment below:
+# data/processed/*.csv
+
+# Serialized Model & Scaler Binaries
+model/*.h5
+model/*.pkl
+
+# OS Specific
+.DS_Store
+Thumbs.db
